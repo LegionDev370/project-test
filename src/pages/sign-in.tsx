@@ -43,8 +43,6 @@ const SignIn = () => {
     }
   }, [isError]);
 
-  console.log(store.user)
-
   return (
     <div className="flex h-screen">
       <div className="sign-up-left flex items-center justify-center h-full w-[50%]">
